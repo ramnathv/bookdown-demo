@@ -1,14 +1,11 @@
 language: r
 cache: packages
-
 env:
   global:
-    - secure: "InF/z62wD/4enP/GKotyZp399PsOMpO+Gn8lc7AH7+4drYLU+u/hAfH56Qm4PpPtY9kdK3ZCYAmFnfP0Tnbi3mGyfeT2InqCPe6p3EDGwVI+l5QJ+dJU5RyBdnJ18Big4wYJ9osybQTmuHDzjH5sI15ozUMsXoxmanZlvFK+Xj3H0objDRiCaY3CsDZ8KutRoXuXL/ODD/h2Au5JM2UG8QSBdsYil5DTRl6gYKDj3yGl+52jb7QVrEpkMZECzgRvep+KApQPTU0jPAJmSPvKKAo2gm3C5C+ZAeKORzJpS3N1USjI8buxXdDAK49bFIfbLYMgJk2pjuKbDQ3WAaJVo7pgVNq/foXH913/jJQoS/0/VBKZlr+ZtwNjHRq12asGX7L8U5i21ENky5wQp/GnJYU6GP1bMA7gxnJMFcHD0Jb8V805iPrJWzj07gkkZ4nnv44IDzDuNBEp+psI01r/rrJ2oqUzkiOnESthCT50UG4qDDdKyQIVgh7kLKzyB6psgdsi+ntXvQbHEnrk1gCW2jxYlSxqmhiKL1FqeUNFPWINcQ7RQbXtSIfcFa4PQi/J5as0dYv2JlmWjjnTr1i2V6Z7iiROOrJzypGuxPn6hrE2cQcCG6/3cfQP5CikodCgBRLX+9rrMML8mgc/QXcV4TxCpGgLnV6E7vFCSlThg6M="
-
+    secure: CVG9Qp5IHynGEuJ/tr4KccnaQTfsOzfsQoePKnb/V2t34Quenq9FyShft/HCUrmWHQE6X3t0fOJk/xbM84dNdLvqQ+imrPkwG7425k6gp0Fc/I82MCyzE9Ct/jwKXtODi22yA27J4fI+Fn3smYqHSzVm6IbduMqWqunArIL05LpBmtHY3lOQBEWR2vt+FQU+Yhc15QSi8f+bnp5iomwh4iqdTcrawbsbO67SkCn4FzgeRg2BswlY6b9+yW2CPlz1gbNWRqsNjXDnG2y8aMflD0P+vyCI0zNJ7MO58pbBJoYovyGbbGDg0aIyAHyOI2c1cjqCUXauEVEFpn0yYxrR5Qdfhb/xWWB4tnF+hAP1c4hTUXEj4U9jpuDodAh0W+tAnLvLTwWSGCRGTaC/7NtKfaCJt37p6EU45/0t3Ve4JeQ2hznG3sdhL/L7FsqYcyfadbhgFAI/0yi7yrAonedSKx9YyVAK6Mzi+RS0Hc5KQWlzF9V1MOqDI61qEeEVBqrjqf7qx7/h86j49zAz6v2T4JIdpY8gl05APOzyL/J6lIXswsKCzgflnrb0Ywp0agVLIljxLCUeXm1wX4zdxgFRzFfshuXDH4zgTZVpD6xgzjx/lgBeJvd0tHGac5S9om+9/9JMjCkemjti+3qpTSnDQq9+ztnikwwZu/ejsk123dc=
 before_script:
-  - chmod +x ./_build.sh
-  - chmod +x ./_deploy.sh
-
+- chmod +x ./_build.sh
+- chmod +x ./_deploy.sh
 script:
-  - ./_build.sh
-  - ./_deploy.sh
+- "./_build.sh"
+- "./_deploy.sh"
